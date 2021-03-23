@@ -364,6 +364,10 @@ footer h2 {
 
 /* 1024px */
 @media only screen and (max-width:667px) {
+    h1 {
+        font-weight: 900;
+    }
+
     .tagline {
         /* border:1px solid red; */
         font-size: 50px;
@@ -399,6 +403,7 @@ footer h2 {
 
     .about-section {
         margin-top: 500px;
+        width: 650px;
     }
 
     .about-section h4 {
@@ -459,23 +464,31 @@ footer h2 {
         font-size: 70px;
         font-weight: bold;
     }
-    .cap-list{
-        font-size:35px;
+
+    .cap-list {
+        font-size: 35px;
         width: 450px;
         margin-top: 15px;
         font-weight: normal;
         margin-bottom: 35px;
     }
-    .review-text-div{
+
+    .review {
+        width: 650px;
+    }
+
+    .review-text-div {
         /* width: 500px; */
     }
-    .review-text{
-        font-size:50px;
+
+    .review-text {
+        font-size: 50px;
         line-height: 70px;
     }
-    .author-name{
-        font-size:35px;
-        
+
+    .author-name {
+        font-size: 35px;
+
     }
 }
 
