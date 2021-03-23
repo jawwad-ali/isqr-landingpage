@@ -285,7 +285,8 @@ footer h2 {
         width: 70%;
         margin-left: 50px;
     }
-    .about-section{
+
+    .about-section {
         margin-top: 200px;
     }
 
@@ -329,29 +330,153 @@ footer h2 {
         margin-left: 50px;
     }
 
-    .capabilites .right-div{
+    .capabilites .right-div {
         margin-top: 50px;
     }
+
     .cap-item {
         width: 300px;
     }
 
-    .review{
+    .review {
         width: 565px;
     }
-    .quote-img{
+
+    .quote-img {
         margin-top: -70px;
         margin-left: 45px;
     }
-    .review-text{
+
+    .review-text {
         margin-left: 50px;
     }
-    .author{
+
+    .author {
         margin-left: 50px;
         margin-top: 50px;
     }
-    footer{
+
+    footer {
         width: 565px;
     }
 
 }
+
+/* 1024px */
+@media only screen and (max-width:667px) {
+    .tagline {
+        /* border:1px solid red; */
+        font-size: 50px;
+        width: 500px;
+        font-weight: 200;
+    }
+
+    .img-div {
+        /* border:1px solid red; */
+        position: relative;
+    }
+
+    .dots-img {
+        position: absolute;
+        margin-left: -120px;
+        width: 300px;
+    }
+
+    .blue-box {
+        position: absolute;
+        margin-left: -80px;
+        margin-top: 55px;
+        width: 380px;
+    }
+
+    .orange-box {
+        position: absolute;
+        margin-left: -135px;
+        margin-top: 160px;
+        width: 320px;
+        height: 320px;
+    }
+
+    .about-section {
+        margin-top: 500px;
+    }
+
+    .about-section h4 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .about-heading {
+        font-size: 65px;
+        width: 450px;
+    }
+
+    .about-text {
+        font-size: 35px;
+        width: 450px;
+        font-weight: none;
+    }
+
+    .about-item {
+        /* border:1px solid red; */
+        margin-top: 15px;
+        width: 450px;
+    }
+
+    .about-item-image img {
+        height: 70px;
+        width: 70px;
+    }
+
+    .about-item-text h4 {
+        font-size: 35px;
+        font-weight: normal;
+    }
+
+    .about-item-text p {
+        font-size: 30px;
+        font-weight: normal;
+    }
+
+    #app {
+        /* border: 1px solid red; */
+        width: 480px;
+        margin-left: -22px;
+    }
+
+    .ityped {
+        font-weight: normal;
+        font-size: 35px;
+        margin-left: -22px;
+    }
+
+    .capabilites h4 {
+        font-size: 32px;
+    }
+
+    .cap-heading {
+        width: 450px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    .cap-list{
+        font-size:35px;
+        width: 450px;
+        margin-top: 15px;
+        font-weight: normal;
+        margin-bottom: 35px;
+    }
+    .review-text-div{
+        /* width: 500px; */
+    }
+    .review-text{
+        font-size:50px;
+        line-height: 70px;
+    }
+    .author-name{
+        font-size:35px;
+        
+    }
+}
+
+/* 1024px end */
